@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: fit-content;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.logo{
+    width: 200px;
+    
+}
+h1{
+    font-style: italic;
+    font-family: cursive;
+    color: #4dbf00;
+    
+    
+}
+p{
+    font-style: italic;
+    color: black;
+}
+.navbar {
+  max-width: fit-content;
+  background-color: #000;
+  overflow: auto;
+  right: 10px;
+
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  max-width: fit-content;
+}
+
+.home {
+  background-color: red;
+  flex: 2;
+  font-family: cursive;
+}
+
+.bollywood {
+  background-color: green;
+  font-family: cursive;
+}
+.hollywood{
+    background-color: saddlebrown;
+    font-family: cursive;
+}
+.web{
+    font-family: cursive;
+}
+
+
+.container {
+    background-color: #151515;
+    /* width: 560vh; */
+    color: white;
+    /* height: 210vh; */
+    max-width: fit-content;
+    min-height: fit-content;
+}
+.content-container{
+    /* margin-left: 50px; */
+    max-width: 100vw;
+    
+}
+
+/* .featured-content{
+    height: 50vh;
+    background-color: tomato;
+    padding: 100px;
+    width: 100%;
+} */
+.featured-content{
+    width: 100%;
+    border: 2px white;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    border: 20px red;
+    flex-direction: column;
+}
+
+.pathan-poster{
+    /* width: 700px; */
+    border-radius: 2px;
+    /* padding: 20px; */
+    position: inherit;
+    /* height: 500px; */
+    margin-right: 10px;
+    max-width: fit-content;
+    /* max-width: fit-content; */
+    min-height: 50%;
+    
+}
+
+.pathan-desc{
+    
+    color: white;
+    text-align :left;
+
+    
+}
+
+
+.button-pathan{
+    background-color: #4dbf00;
+    color: white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 10px;
+    border: none; 
+    outline: none;
+    font-weight: bold;
+    
+
+}
+.movie-list-title{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: tomato;
+}
+.movie-list-container{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    justify-content: center;
+    border: 10px red;
+    
+
+
+}
+.movie-list-item{
+    margin: 20px;
+    position: relative;
+}
+.movie-list-item:hover .content-image
+{
+    transform: scale(1.3);
+    margin: 0 10px;
+    opacity: 0.3;
+}
+
+.movie-list-item:hover .Content-title,
+.movie-list-item:hover .mo-Content-title,
+.movie-list-item:hover .Content-desc,
+.movie-list-item:hover .Content-button{
+    opacity: 1;
+}
+.content-image{
+    transition: all 1s ease-in-out;
+    width: 250px;
+    object-fit: cover;
+    box-shadow: 5px 5px black;
+}
+
+.Content-title{
+    /* background-color: #333; */
+    padding: 0 10px;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+
+    /* font-family: cursive; */
+}
+
+.Content-desc{
+    /* background-color: #333; */
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    width: 207px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+    color: white;
+    text-decoration:solid;
+    text-transform: lowercase;
+
+}
+.Content-button{
+    padding: 8px;
+    background-color: #4dbf00;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    bottom: 00px;
+    left: 40px;
+    transition: 1s all ease-in-out;
+    opacity: 0;
+    align-items: center;
+    right: 10px;
+    margin-top: 2px;
+
+}
+.arrow{
+    font-size: 120px;
+}
+@media (max-width: 600px){
+    .movie-list{
+        flex-wrap: wrap;
+    }
+    .content-container{
+        width:500px ;
+    }
+  
+
+}
+@media (max-width :500px){
+    .pathan-poster{
+        width: 100%;
+        
+    }
+    .content-container{
+        width: 400px;
+    }
+}
