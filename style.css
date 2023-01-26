@@ -40,20 +40,21 @@ p{
 .home {
   background-color: red;
   flex: 2;
+  font-family: cursive;
   
 }
 
 .bollywood {
   background-color: green;
-  
+  font-family: cursive;
 }
 .hollywood{
     background-color: saddlebrown;
-    
+    font-family: cursive;
 }
 .join-telegram{
     background-color: aqua;
-    
+    font-family: cursive;
 }
 .web{
     font-family: cursive;
