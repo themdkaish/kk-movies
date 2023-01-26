@@ -53,8 +53,9 @@ p{
     font-family: cursive;
 }
 .join-telegram{
-    background-color: aqua;
+    background-color: red;
     font-family: cursive;
+    max-width: fit-content;
 }
 .web{
     font-family: cursive;
