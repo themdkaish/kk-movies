@@ -11,7 +11,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 h1{
     font-style: italic;
-    
+    font-family: cursive;
     color: #4dbf00;
     
     
@@ -25,6 +25,7 @@ p{
   background-color: #000;
   overflow: auto;
   right: 10px;
+  width : 100%;
 
 }
 
@@ -35,13 +36,13 @@ p{
   text-decoration: none;
   font-size: 17px;
   max-width: fit-content;
+
 }
 
 .home {
   background-color: red;
   flex: 2;
   font-family: cursive;
-  
 }
 
 .bollywood {
@@ -60,10 +61,9 @@ p{
 .web{
     font-family: cursive;
 }
-.navbar.container{
+/* .navbar.container{
     max-width: fit-content;
-}
-
+} */
 
 .container {
     background-color: #151515;
