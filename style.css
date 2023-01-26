@@ -60,6 +60,9 @@ p{
 .web{
     font-family: cursive;
 }
+.navbar.container{
+    max-width: fit-content;
+}
 
 
 .container {
