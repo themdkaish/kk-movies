@@ -11,7 +11,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 }
 h1{
     font-style: italic;
-    font-family: cursive;
+    
     color: #4dbf00;
     
     
@@ -40,16 +40,20 @@ p{
 .home {
   background-color: red;
   flex: 2;
-  font-family: cursive;
+  
 }
 
 .bollywood {
   background-color: green;
-  font-family: cursive;
+  
 }
 .hollywood{
     background-color: saddlebrown;
-    font-family: cursive;
+    
+}
+.join-telegram{
+    background-color: aqua;
+    
 }
 .web{
     font-family: cursive;
